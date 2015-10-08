@@ -1,15 +1,14 @@
 # omnieval
 
-To run remappping code:
-
 Build
 --------------
-
-* cd remap
-* mkdir build
-* cd build
-* cmake ../
-* make
+```
+cd remap
+mkdir build
+cd build
+cmake ../
+make
+```
 
 Usage
 --------------
