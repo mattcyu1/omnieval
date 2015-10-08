@@ -3,13 +3,15 @@
 To run remappping code:
 
 Step 1: Build
-cd remap\
-mkdir build
-cd build
-cmake ../
-make
+
+*cd remap
+*mkdir build
+*cd build
+*cmake ../
+*make
 
 Step 2: Run
+
 Run command help:
 ./remap
 
