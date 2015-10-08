@@ -5,13 +5,12 @@
 
 static int usage(const char *exe){
     fprintf(stderr,
-            "%s [-i input] [-o output] [-f filter] [-m m] [-n n] [-w w] [-h h] [-a acs] [-t tf] [-y] src dst\n"
+            "%s [-i input] [-o output] [-f filter] [-m m] [-n n] [-w w] [-h h] [-t tf] [-y] src dst\n"
             "\t-i ... Input  file type: cube, rect, eqar, mult, mul0, mul1       [rect]\n"
             "\t-o ... Output file type: cube, rect, eqar, view, trec             [rect]\n"
-            "\t-a ... Filename for storing src access locations                  [none]\n"
             "\t-f ... Filter type: nearest, linear, bicubic                   [bicubic]\n"
             "\t-m ... Input  height list                                          [500]\n"
-            "\t-b ... Output width                                                 [2m]\n"
+            "\t-b ... Input  width                                                 [2m]\n"
             "\t-n ... Output height                                               [500]\n"
             "\t-v ... Output width                                                 [2n]\n"
             "\t-w ... Viewport width                                              [200]\n"
