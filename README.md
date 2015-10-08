@@ -1,4 +1,5 @@
 # omnieval
+Gives the user the ability to convert omnidirectional images/video (yuv format) from one representation to another. For example, can convert an equirectangular video to a mercator video. Moreover, the difference in quality between the two videos can be computed. The user can choose between weighted and unweighted mean square error comparisons. Note that code can also be used to cutout a viewport (e.g., corresponding to the view seen through a head mounted display). 
 
 Build
 --------------
