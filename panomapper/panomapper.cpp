@@ -697,7 +697,7 @@ double sphcomparer::sphcomp(bool mserFlag){
     float ps = 0;
     while(nf<numFrames){
 
-	printf("nf: %d\n",nf);
+
 	bool sr1Flag = sr1Yuv.readNextFrame();
 	bool sr2Flag = sr2Yuv.readNextFrame();
 	
@@ -714,6 +714,7 @@ double sphcomparer::sphcomp(bool mserFlag){
 	sph2 = genSphFromImg(sr2Yuv.getY(), sph2sr2);
 	ps += compareTwoSph(mserFlag);
     }
+    printf("nf: %d\n",nf);
     return ps/nf;
 }
 
