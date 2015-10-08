@@ -2,8 +2,17 @@
 
 Build
 --------------
+Remapping from one representation to another:
 ```
 cd remap
+mkdir build
+cd build
+cmake ../
+make
+```
+Comparing two representations:
+```
+cd compsph
 mkdir build
 cd build
 cmake ../
