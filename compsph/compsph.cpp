@@ -6,8 +6,8 @@
 static int usage(const char *exe){
     fprintf(stderr,
             "%s [-i input1] [-o input2] [-f filter] [-m m] [-n n] [-z z] [-w w] [-s] src1 src2 sph\n"
-            "\t-i ... Input file type: cube, rect  eqarea, merc, cos2, dyad    [rect]\n"
-            "\t-o ... Input file type: cube, rect, eqarea, merc, cos2, dyad    [rect]\n"
+            "\t-i ... Input file type: cube, rect  eqarea, merc, dyad          [rect]\n"
+            "\t-o ... Input file type: cube, rect, eqarea, merc, dyad          [rect]\n"
             "\t-f ... Filter type: nearest, linear, bicubic                 [bicubic]\n"
             "\t-w ... Latitude weighting function                                 [1]\n"
             "\t-s ... Sphere weighting indicator                              [false]\n"
