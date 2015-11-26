@@ -37,3 +37,7 @@ Example 3: comparing an equirectangular (2048x1024) and an equalarea (1024x512) 
 ```
 ./compsph -i rect -o eqar -m 1024 -b 2048 -n 512 -v 1024 -w latweights.txt rect.yuv eqar.yuv sphere_655362.txt
 ```
+
+Note
+--------------
+This code builds on Environment Mapping Tools, created by Robert Kooima: https://github.com/rlk/envtools
