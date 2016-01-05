@@ -22,12 +22,8 @@ set(SOURCE_FILES
 	)
 
 include_directories(../yuv ../map_utils ../panomapper)
+include_directories(${OpenCV_INCLUDE_DIRS})
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${remap_SOURCE_DIR})
-#set(OpenCV_DIR "/Users/mattcyu/Downloads/opencv-3.0.0-beta/")
-#set(OpenCV_DIR "/Users/mattcyu/Downloads/opencv-3.0.0-beta/build/share/OpenCV")
-
-
 add_executable(remap ${SOURCE_FILES})
-
 target_link_libraries(remap ${OpenCV_LIBS} )
